@@ -1,0 +1,6 @@
+{
+  "frame_skip": 5,
+  "log_folder": "logs",
+  "database_file": "visitors.db",
+  "yolo_model_path": "yolov8n.pt"
+}
