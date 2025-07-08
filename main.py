@@ -27,8 +27,8 @@ database = VisitorDatabase(DB_FILE)
 # Store known embeddings
 known_embeddings = {}
 
-# Load video (replace with camera if needed)
-cap = cv2.VideoCapture("test_video.mp4")
+# Load your specific video file (use raw string for Windows path)
+cap = cv2.VideoCapture(r"D:\projects\face_tracker_project\855564-hd_1920_1080_24fps.mp4")
 frame_count = 0
 
 print("[INFO] Starting face tracking...")
