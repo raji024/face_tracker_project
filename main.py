@@ -171,3 +171,4 @@ except:
 
 print("[INFO] Video processing complete.")
 print(f"[RESULT] Total distinct visitors detected: {len(known_embeddings)}")
+
